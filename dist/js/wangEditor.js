@@ -4474,6 +4474,7 @@ _e(function (E, $) {
 
         // 初始化数据
         var data  = {
+            '<p>': '正文',
             '<h1>': '标题1',
             '<h2>': '标题2',
             '<h3>': '标题3',
@@ -4531,6 +4532,7 @@ _e(function (E, $) {
         editor.menus[menuId] = menu;
     });
 });
+
 // unorderlist 菜单
 _e(function (E, $) {
 
